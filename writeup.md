@@ -76,9 +76,7 @@ This light and contrast enhanced image is then converted to grayscale. Convertin
 |:-----------------------------------------------------|:-------------------------------------------------------------|
 | ![alt text](./writeup_data/clahe.png "CLAHE output") | ![alt text](./writeup_data/grayscale.png "Grayscale output") |
 
-<p align="justify">
 Finally, this grayscale image is normalized because having wider distribution in the data makes it more difficult to train. This is done using `normalized = ((grayscale - 128) / 128)`. After normalization, all image data ranges between -1 and 1.
-</p>
 
 **Model Architecture**
 
